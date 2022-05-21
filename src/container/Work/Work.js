@@ -39,8 +39,6 @@ const Work = () => {
     <>
       <h2 className='head-text'>
         My Creative <span>Portfolio</span>
-        <br />
-        <span>Featured Builds</span>
       </h2>
       <div className='app__work-filter'>
         {[
@@ -49,6 +47,8 @@ const Work = () => {
           'Redux',
           'Social Media App',
           'E-Commerce App',
+          'Older',
+          'Latest',
           'Other Builds',
         ].map((item, index) => (
           <div
